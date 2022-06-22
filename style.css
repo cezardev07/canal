@@ -250,6 +250,8 @@ span
     width: 98.4%;
     height: 200px;
     margin-left: 0px;
+    border-left: none;
+    border-top: none;
 }
 .lgcanal{
     margin-top: 20px;
@@ -424,5 +426,8 @@ video{
         margin-top: 15px;
         margin-left: 10px;
         font-size: 25px;
+    }
+    video{
+        margin-left: 6px;
     }
 }
