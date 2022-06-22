@@ -11,52 +11,68 @@
 <body>
     <div class="container">
 
-        <span class="anuncio"></span>
-        <a href="#"><img class="imglogo" src="./img/dev3.jpeg"></a>
-        <p class="nomecanal">Dev-Tube</p>
-        <p class="subs">4,49 M de subscritores</p>
-
-        <div class="bar">
-            <a href="#"class="iniciocanal">Início</a>
-            <a href="https://cezardev07.github.io/vd/"class="video">Video</a>
-            <a href="https://cezardev07.github.io/sb/"class="sobre">Sobre</a>
-        </div>
-        <span class="barra"></span>
-
-        <div class="movie">
-            <video src="./video/Scooby doo.mov" controls autoplay></video>
-            <a href="https://cezardev07.github.io/video/" class="title">SCOOBY! O Filme | Teaser Trailer Dublado</a>
-            <p class="descriçaotwo"> <strong>Descrição :</strong><br><br> Esse site foi criado para fins Didatico.<br><br> caso tenha conteudo de sua autoridade <br>entre em contato para a remoção.</p>
-            <p class="comentariostwo"><br><a href="https://cezardev07.github.io/website/" class="sobremais" target="_blank" rel="noopener noreferrer">Saber mais</a></p>
-        </div>
-
         <header>
 
             <a href="https://cezardev07.github.io/site/" class="logo">< Dev-<span>Tube</span> ></a>
             <a href="#" class="login">iniciar sessão</a>
 
             <form class="form" method="get" action="#">
-                <input type="search" name="search" placeholder="Search..." class="fm-inp">
+                <input type="search" name="search" placeholder="Search..." class="fm-inp" required>
             </form>
             <button class="btn-search">
                 <img class="icon" src="./img/seach white.PNG">
             </button>
 
         </header>
-    <div class="atalhos">
+
+        <div class="atalhos">
+            <a href="#" class="inicio">Home</a>
+            <a href="#" class="explorar">< ></a>
+            <a href="#" class="shorts">$</a>
+
+            <a href="#" class="meio">Sobre</a>
+            <p class="sobredescriçao"> <strong>Descrição :</strong><br><br> Esse site foi criado para fins<br> Didatico, caso tenha conteudo de sua autoridade, entre em contato para a remoção</p>
+
+            <p class="sobrecomentarios"><br><a href="https://cezardev07.github.io/website/" class="sobremais" target="_blank" rel="noopener noreferrer">Saber mais</a></p>
+            <a href="https://cezardev07.github.io/website/" class="fim" target="_blank" rel="noopener noreferrer">iniciar sessão</a> 
+        </div>
+
+        <!-- ========================================================================================================================= -->
+
+        <div class="back"></div>
+
+        <div class="lgcanal">
+
+            <img src="./img/dev3.jpeg" alt="">
+            <h2>Dev-Tube</h2>
+            <p class="subs">4,49 M de subscritores</p>
+
+        </div>
         
-                <a href="#" class="inicio">Home</a>
-                <a href="#" class="explorar">< ></a>
-                <a href="#" class="shorts">$</a>
+        <div class="ivs">
 
-                <a href="#" class="meio">Sobre</a>
-                <p class="sobredescriçao"> <strong>Descrição :</strong><br><br> Esse site foi criado para fins<br> Didatico, caso tenha conteudo de sua autoridade, entre em contato para a remoção</p>
+            <a href="#" class="item" id="ini">Inicio</a>
+            <a href="#" class="item" id="vid">Video</a>
+            <a href="#" class="item" id="sob">Sobre</a>
 
-                <p class="sobrecomentarios"><br><a href="https://cezardev07.github.io/website/" class="sobremais" target="_blank" rel="noopener noreferrer">Saber mais</a></p>
-                <a href="https://cezardev07.github.io/website/" class="fim" target="_blank" rel="noopener noreferrer">iniciar sessão</a>           
+        </div>
+
+        <div class="canal">
+
+            <div class="vd"><video src="./video/Scooby doo.mov" controls autoplay muted></video></div>
+            <div class="des">
+
+                <a href="https://cezardev07.github.io/video/" class="title">SCOOBY! O Filme | Teaser Trailer <br>Dublado</a>
+                <p class="desc" style="margin-top: 10px;"> <strong>Descrição :</strong> <br><br>Esse site foi criado para fins Didatico,
+                <br>
+                caso tenha conteudo de sua autoridade
+                <br>
+                entre em contato para a remoção.</p><a href="" class="mais">Saber mais</a>
+            </div>
+
+        </div>
     </div>
-
-    </div>
+    
     <script type="text/javascript">
 
         const form = document.querySelector(".form");
